@@ -3,7 +3,7 @@ require("dotenv").config();
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
-  solidity: "0.8.24",
+  solidity: "0.8.20",
   networks: {
     amoy: {
       url: process.env.ALCHEMY_API_URL,
